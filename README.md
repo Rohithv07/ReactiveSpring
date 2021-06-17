@@ -227,3 +227,48 @@ public interface Processor<T, R> extends Subscriber<T>, Publisher<R> {
 * Reactor
 
 * Flow Class - JDK 9
+
+
+### Project Reactor
+
+#### reactor-core
+
+* Core library of project reactor
+
+* Implementation of reactive streams specification
+
+* flux and mono
+
+* flux represents 0 to n elements
+
+* mono represents 0 to 1 elements
+
+##### Flux
+
+![Flux](https://projectreactor.io/docs/core/release/api/reactor/core/publisher/doc-files/marbles/flux.svg) 
+
+[Image taken from Project Reactor](https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html)
+
+```java
+// flux
+
+Flux.just("Spring", "Spring Boot", "Reactive Spring Boot")
+.map(s -> s.concat("flux"))
+.subscribe(System.out::println);
+
+```
+
+##### Mono
+
+![Mono](https://projectreactor.io/docs/core/release/api/reactor/core/publisher/doc-files/marbles/mono.svg)
+
+[Image taken from Project Reactor](https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html)
+
+```java
+// mono
+
+Mono.just("Spring")
+.map(s -> s.concat("flux"))
+.subscribe(System.out::println);
+
+```
