@@ -272,3 +272,7 @@ Mono.just("Spring")
 .subscribe(System.out::println);
 
 ```
+
+### Note 
+
+>> Most of the codes are written on the `src/test/java` rather than `src/main/java`
