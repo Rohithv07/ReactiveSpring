@@ -276,3 +276,9 @@ Mono.just("Spring")
 ### Note 
 
 >> Most of the codes are written on the `src/test/java` rather than `src/main/java`
+
+### Points to note
+
+- Using map and filter combined is know as a pipeline
+
+- Flat map is used when we need to make a db call or external service call that returns a flux
