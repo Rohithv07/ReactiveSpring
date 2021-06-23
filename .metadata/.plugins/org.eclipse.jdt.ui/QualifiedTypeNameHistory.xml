@@ -8,8 +8,12 @@
     <fullyQualifiedTypeName name="java.util.function.Supplier"/>
     <fullyQualifiedTypeName name="org.junit.platform.engine.support.hierarchical.ParallelExecutionConfiguration"/>
     <fullyQualifiedTypeName name="reactor.core.scheduler.Schedulers"/>
+    <fullyQualifiedTypeName name="java.lang.Throwable"/>
+    <fullyQualifiedTypeName name="com.rohith.springreactive.fluxandmono.CustomException"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="reactor.core.publisher.Flux"/>
     <fullyQualifiedTypeName name="reactor.test.StepVerifier"/>
-    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="reactor.core.publisher.BaseSubscriber"/>
 </qualifiedTypeNameHistroy>
